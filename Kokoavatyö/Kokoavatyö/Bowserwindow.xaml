@@ -1,0 +1,14 @@
+﻿<Window x:Class="Kokoavatyö.Bowserwindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kokoavatyö"
+        mc:Ignorable="d"
+        Title="Bowserwindow" Height="450" Width="800">
+    <Grid>
+        <WebBrowser Name="myweb" Margin="0,0,9.6,59" Loaded="WebBrowser_Loaded" HorizontalAlignment="Right" Width="784" Height="350" VerticalAlignment="Bottom"/>
+        <Button x:Name="Backbtn" Content="Back" HorizontalAlignment="Left" Margin="308,366,0,0" VerticalAlignment="Top" Width="211" Height="44" Background="#FFC1C6FF" Click="Backbtn_Click"/>
+
+    </Grid>
+</Window>
